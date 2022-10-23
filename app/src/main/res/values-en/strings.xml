@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My recipes</string>
+    <string name="home_question">What will you cook today?</string>
+    <string name="home_search_box_text">Start searching</string>
+    <string name="home_fresh_heading">Popular recipes</string>
+    <string name="home_fresh_more">More...</string>
+    <string name="home_fresh_item_1_title">French toast with strawberries</string>
+    <string name="home_recommended_heading">We recommend </string>
+    <string name="home_recommended_more">More...</string>
+    <string name="home_recommended_item_1_title">Blueberry muffins</string>
+    <string name="home_recommended_item_2_title">Glazed salmon</string>
+    <string name="home_component_search">Search</string>
+    <string name="home_my_recipes">My recipes</string>
+    <string name="home_profile">Profile</string>
+    <string name="recipe_view_ingredients_heading">Ingredients</string>
+    <string name="recipe_view_algorithm_heading">Step-by-step recipe</string>
+    <string name="recipe_view_directions_1_text">Preheat the oven to 200°. Cut the vanilla stick in half lengthwise and use a knife to scrape the seeds from both formed halves.</string>
+    <string name="recipe_view_directions_2_text">Milk, vanilla and 40 g of sugar.bring the powders to a boil, remove from heat, cover with a lid and let stand for 20 minutes.</string>
+    <string name="recipe_view_directions_3_text">Separately beat the egg with 10 g of sugar.powders. Dip each piece in milk, then in egg. Put in the oven for 10 minutes, then turn each piece over and bake for another 10 minutes.</string>
+    <string name="recipe_view_directions_4_text">Sprinkle with cinnamon and sugar before serving.powder, put chopped strawberries on top.</string>
+    <string name="recipe_view_wish">Bon appetit</string>
+    <string name="recipe_view_button_text">Return</string>
+</resources>

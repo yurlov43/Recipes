@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Recipes</string>
+    <string name="app_name">My recipes</string>
+    <string name="home_question">Что будете готовить сегодня?</string>
+    <string name="home_search_box_text">Начните поиск</string>
+    <string name="home_fresh_heading">Популярные рецепты</string>
+    <string name="home_fresh_more">Ещё...</string>
+    <string name="home_fresh_item_1_title">Французские тосты с клубникой</string>
+    <string name="home_recommended_heading">Рекомендуем</string>
+    <string name="home_recommended_more">Ещё...</string>
+    <string name="home_recommended_item_1_title">Черничные маффины</string>
+    <string name="home_recommended_item_2_title">Лосось в глазури</string>
+    <string name="home_component_search">Поиск</string>
+    <string name="home_my_recipes">Мои рецепты</string>
+    <string name="home_profile">Профиль</string>
+    <string name="recipe_view_ingredients_heading">Ингредиенты</string>
+    <string name="recipe_view_algorithm_heading">Пошаговый рецепт</string>
+    <string name="recipe_view_directions_1_text">Духовку разогреть до 200°. Палочку ванили разрезать вдоль пополам и ножом соскребсти семена из обеих образованных половинок.</string>
+    <string name="recipe_view_directions_2_text">Молоко,ваниль и 40 г сах.пудры довести до кипения,снять с огня,накрыть крышкой и дать настояться 20 мин.</string>
+    <string name="recipe_view_directions_3_text">Отдельно взбить яйцо с 10 г сах.пудры. Каждый кусочек обмакать в молоке,затем в яйце. Поставить в духовку на 10 мин,затем перевернуть каждый кусочек и запекать еще 10 мин.</string>
+    <string name="recipe_view_directions_4_text">Перед подачей посыпать корицей и сах.пудрой,сверху положить порезанную клубнику.</string>
+    <string name="recipe_view_wish">Приятного аппетита</string>
+    <string name="recipe_view_button_text">Вернуться</string>
 </resources>
