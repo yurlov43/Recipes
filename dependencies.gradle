@@ -1,0 +1,23 @@
+ext.versions = [
+        minSdk              : 25,
+        targetSdk           : 33,
+        compileSdk          : 33,
+
+        timber              : '5.0.1',
+        coreKtx             : '1.9.0',
+        appcompat           : '1.5.1',
+        material            : '1.7.0',
+        constraintlayout    : '2.1.4',
+        junit               : '4.13.2',
+        espressoCore        : '3.4.0'
+]
+
+ext.libraries = [
+        timber              : "com.jakewharton.timber:timber:$versions.timber",
+        coreKtx             : "androidx.core:core-ktx:$versions.coreKtx",
+        appcompat           : "androidx.appcompat:appcompat:$versions.appcompat",
+        material            : "com.google.android.material:material:$versions.material",
+        constraintlayout    : "androidx.constraintlayout:constraintlayout:$versions.constraintlayout",
+        junit               : "junit:junit:$versions.junit",
+        espressoCore        : "androidx.test.espresso:espresso-core:$versions.espressoCore"
+]
