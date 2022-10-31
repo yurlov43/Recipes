@@ -3,10 +3,9 @@
     <string name="home_question">Что будете готовить сегодня?</string>
     <string name="home_search_box_text">Начните поиск</string>
     <string name="home_fresh_heading">Популярные рецепты</string>
-    <string name="home_fresh_more">Ещё...</string>
+    <string name="home_more">Ещё...</string>
     <string name="home_fresh_item_1_title">Французские тосты с клубникой</string>
     <string name="home_recommended_heading">Рекомендуем</string>
-    <string name="home_recommended_more">Ещё...</string>
     <string name="home_recommended_item_1_title">Черничные маффины</string>
     <string name="home_recommended_item_2_title">Лосось в глазури</string>
     <string name="home_component_search">Поиск</string>

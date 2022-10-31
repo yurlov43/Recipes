@@ -4,10 +4,9 @@
     <string name="home_question">What will you cook today?</string>
     <string name="home_search_box_text">Start searching</string>
     <string name="home_fresh_heading">Popular recipes</string>
-    <string name="home_fresh_more">More...</string>
+    <string name="home_more">More...</string>
     <string name="home_fresh_item_1_title">French toast with strawberries</string>
     <string name="home_recommended_heading">We recommend </string>
-    <string name="home_recommended_more">More...</string>
     <string name="home_recommended_item_1_title">Blueberry muffins</string>
     <string name="home_recommended_item_2_title">Glazed salmon</string>
     <string name="home_component_search">Search</string>
