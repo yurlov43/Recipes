@@ -19,4 +19,9 @@
     <string name="recipe_view_directions_4_text">Перед подачей посыпать корицей и сах.пудрой,сверху положить порезанную клубнику.</string>
     <string name="recipe_view_wish">Приятного аппетита</string>
     <string name="recipe_view_button_text">Вернуться</string>
+    <string name="welcome_title" translatable="false">Daily Recipe</string>
+    <string name="welcome_division" translatable="false">Cooking Done The Easy Way</string>
+    <string name="welcome_background">Фоновое изображение</string>
+    <string name="Welcome_button_registration">Регистрация</string>
+    <string name="welcome_sign_in">Войти</string>
 </resources>

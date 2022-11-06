@@ -20,4 +20,7 @@
     <string name="recipe_view_directions_4_text">Sprinkle with cinnamon and sugar before serving.powder, put chopped strawberries on top.</string>
     <string name="recipe_view_wish">Bon appetit</string>
     <string name="recipe_view_button_text">Return</string>
+    <string name="Welcome_button_registration">Registration</string>
+    <string name="welcome_sign_in">Sign in</string>
+    <string name="welcome_background">Background image</string>
 </resources>
