@@ -22,6 +22,14 @@
     <string name="welcome_title" translatable="false">Daily Recipe</string>
     <string name="welcome_division" translatable="false">Cooking Done The Easy Way</string>
     <string name="welcome_background">Фоновое изображение</string>
-    <string name="Welcome_button_registration">Регистрация</string>
+    <string name="Welcome_text_registration">Регистрация</string>
     <string name="welcome_sign_in">Войти</string>
+    <string name="registration_name_icon_content_description">Иконка поля ввода имяни</string>
+    <string name="registration_name_label">Имя</string>
+    <string name="registration_email_label" translatable="false">Email</string>
+    <string name="registration_password_label">Пароль</string>
+    <string name="registration_email_icon_content_description">Иконка поля ввода email</string>
+    <string name="registration_password_icon_content_description">Иконка поля ввода пароля</string>
+    <string name="registration_already_registered" translatable="false">Already registered?</string>
+    <string name="registration_sign_in" translatable="false">Sign in.</string>
 </resources>
