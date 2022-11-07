@@ -32,4 +32,7 @@
     <string name="registration_password_icon_content_description">Иконка поля ввода пароля</string>
     <string name="registration_already_registered" translatable="false">Already registered?</string>
     <string name="registration_sign_in" translatable="false">Sign in.</string>
+    <string name="sign_in_forgot_of_password">Забыли пароль?</string>
+    <string name="sign_in_don_t_have_an_account" translatable="false">Don\'t have an account?</string>
+    <string name="sign_in_register" translatable="false">Register.</string>
 </resources>

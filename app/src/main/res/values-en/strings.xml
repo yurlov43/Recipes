@@ -28,4 +28,5 @@
     <string name="registration_password_label">Password</string>
     <string name="registration_email_icon_content_description">Email input field icon</string>
     <string name="registration_password_icon_content_description">Password input field icon</string>
+    <string name="sign_in_forgot_of_password">Forgot of password?</string>
 </resources>
