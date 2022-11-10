@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">My recipes</string>
+    <string name="home_hello">Здравствуйте, Анастасия</string>
     <string name="home_question">Что будете готовить сегодня?</string>
     <string name="home_search_box_text">Начните поиск</string>
     <string name="home_fresh_heading">Популярные рецепты</string>
@@ -24,15 +25,18 @@
     <string name="welcome_background">Фоновое изображение</string>
     <string name="Welcome_text_registration">Регистрация</string>
     <string name="welcome_sign_in">Войти</string>
-    <string name="registration_name_icon_content_description">Иконка поля ввода имяни</string>
+    <string name="registration_name_icon_content_description">Иконка поля ввода имени</string>
+    <string name="home_search_icon_content_description">Иконка поля поиска</string>
     <string name="registration_name_label">Имя</string>
+    <string name="home_search_label">Начните поиск</string>
     <string name="registration_email_label" translatable="false">Email</string>
     <string name="registration_password_label">Пароль</string>
     <string name="registration_email_icon_content_description">Иконка поля ввода email</string>
     <string name="registration_password_icon_content_description">Иконка поля ввода пароля</string>
     <string name="registration_already_registered" translatable="false">Already registered?</string>
     <string name="registration_sign_in" translatable="false">Sign in.</string>
-    <string name="sign_in_forgot_of_password">Забыли пароль?</string>
-    <string name="sign_in_don_t_have_an_account" translatable="false">Don\'t have an account?</string>
-    <string name="sign_in_register" translatable="false">Register.</string>
+    <string name="login_forgot_of_password">Забыли пароль?</string>
+    <string name="login_don_t_have_an_account" translatable="false">Don\'t have an account?</string>
+    <string name="login_register" translatable="false">Register.</string>
+    <string name="home_breakfast">Завтрак</string>
 </resources>

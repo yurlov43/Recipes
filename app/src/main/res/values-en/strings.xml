@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My recipes</string>
+    <string name="home_hello">Hello, Anastasia</string>
     <string name="home_question">What will you cook today?</string>
     <string name="home_search_box_text">Start searching</string>
     <string name="home_fresh_heading">Popular recipes</string>
@@ -24,9 +25,12 @@
     <string name="welcome_sign_in">Sign in</string>
     <string name="welcome_background">Background image</string>
     <string name="registration_name_icon_content_description">Name input field icon</string>
+    <string name="home_search_icon_content_description">Search field icon</string>
     <string name="registration_name_label">Name</string>
+    <string name="home_search_label">Start searching</string>
     <string name="registration_password_label">Password</string>
     <string name="registration_email_icon_content_description">Email input field icon</string>
     <string name="registration_password_icon_content_description">Password input field icon</string>
-    <string name="sign_in_forgot_of_password">Forgot of password?</string>
+    <string name="login_forgot_of_password">Forgot of password?</string>
+    <string name="home_breakfast">Breakfast</string>
 </resources>

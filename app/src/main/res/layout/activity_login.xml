@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
             android:textSize="16sp"
-            android:text="@string/sign_in_forgot_of_password"
+            android:text="@string/login_forgot_of_password"
             android:layout_marginEnd="30dp"
             android:textColor="@color/teal_700"/>
 
@@ -118,19 +118,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/dark_grey"
-                android:text="@string/sign_in_don_t_have_an_account"
+                android:text="@string/login_don_t_have_an_account"
                 android:gravity="center"
                 android:textSize="16sp"
                 android:layout_marginEnd="5dp"/>
-            <TextView
+
+            <Button
+                android:id="@+id/registrationButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/orange"
-                android:text="@string/sign_in_register"
+                android:text="@string/login_register"
+                android:textSize="14sp"
+                android:textAllCaps="false"
                 android:gravity="center"
-                android:textSize="16sp"/>
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
         </LinearLayout>
     </LinearLayout>
-
-
 </FrameLayout>

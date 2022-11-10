@@ -11,4 +11,5 @@ class MainActivity : AppCompatActivity() {
 
         Timber.tag("MainActivity").d("Activity Created");
     }
+
 }

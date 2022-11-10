@@ -45,6 +45,7 @@
         android:layout_gravity="bottom">
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/registrationButton"
             android:layout_width="315dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -56,15 +57,18 @@
             android:backgroundTint="@color/orange"
             app:cornerRadius="50dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/welcome_sign_in"
             android:textColor="@color/white"
+            android:text="@string/welcome_sign_in"
             android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
             android:gravity="center"
             android:layout_marginTop="42dp"
-            android:layout_marginBottom="44dp"/>
+            android:layout_marginBottom="44dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
     </LinearLayout>
 </FrameLayout>

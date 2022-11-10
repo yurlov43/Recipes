@@ -42,6 +42,7 @@
             android:textStyle="bold"/>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameTextInputLayout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -51,9 +52,12 @@
             android:hint="@string/registration_name_label"
             style="@style/Widget.Design.TextInputLayout"
             app:startIconTint="@color/dark_grey"
-            android:textColorHint="@color/dark_grey">
+            android:textColorHint="@color/dark_grey"
+            app:counterEnabled="true"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
@@ -61,6 +65,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailTextInputLayout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -73,13 +78,16 @@
             android:textColorHint="@color/dark_grey">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:inputType="textWebEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordTextInputLayout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -94,6 +102,7 @@
             app:endIconTint="@color/dark_grey">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
@@ -130,15 +139,17 @@
                 android:gravity="center"
                 android:textSize="14sp"
                 android:layout_marginEnd="5dp"/>
-            <TextView
+
+            <Button
+                android:id="@+id/loginButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/orange"
                 android:text="@string/registration_sign_in"
+                android:textSize="14sp"
+                android:textAllCaps="false"
                 android:gravity="center"
-                android:textSize="14sp"/>
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
         </LinearLayout>
     </LinearLayout>
-
-
 </FrameLayout>
