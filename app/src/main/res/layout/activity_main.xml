@@ -1,18 +1,423 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_marginVertical="15dp"
+    android:layout_marginHorizontal="30dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="top"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/menu_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:contentDescription="@string/home_menu_button_icon"
+                android:src="@drawable/menu"
+                android:background="@color/white"/>
+
+            <ImageButton
+                android:id="@+id/reminder_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:contentDescription="@string/home_reminder_button_icon"
+                android:src="@drawable/bell"
+                android:background="@color/white"/>
+        </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_hello"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_question"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/questTextInputLayout"
+            android:layout_height="35dp"
+            android:layout_width="310dp"
+            android:layout_gravity="start"
+            app:startIconContentDescription="@string/home_search_icon_content_description"
+            app:startIconDrawable="@drawable/home_search_icon"
+            android:hint="@string/home_search_label"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconTint="@color/dark_grey"
+            android:textColorHint="@color/dark_grey"
+            android:background="@color/gray">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/filter_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:icon="@drawable/filter"
+            android:insetTop="3dp"
+            app:iconGravity="top"
+            app:iconTint="@color/dark_grey"
+            app:cornerRadius="5dp"
+            android:backgroundTint="@color/gray"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="end"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_fresh_heading"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/more_popular_recipes_button"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="@string/home_more"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="12sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            app:cardBackgroundColor="@color/gray"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/home_image_of_french_toast_with_strawberries"
+                    android:src="@drawable/big_french_toast_with_strawberries" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_breakfast"
+                    android:textColor="@color/teal_700" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_fresh_item_1_title"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <RatingBar
+                        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:progressTint="@color/orange"
+                        android:rating="5"
+                        android:stepSize="0.5" />
+
+                    <androidx.appcompat.widget.AppCompatCheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:button="@drawable/checkbox_selector"
+                        android:gravity="end"
+                        android:layout_gravity="end"/>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_the_number_of_calories_of_french_toast_with_strawberries"
+                    android:textSize="11sp"
+                    android:textColor="@color/orange"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_picture_of_the_clock"
+                        android:src="@drawable/home_clock"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="@string/home_cooking_time_for_french_toast_with_strawberries"
+                        android:textSize="11sp"
+                        android:gravity="center"
+                        android:layout_marginEnd="15dp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_picture_of_the_portion"
+                        android:src="@drawable/home_a_portion"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="@string/home_number_of_servings_in_french_toast_with_strawberries"
+                        android:textSize="11sp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_recommended_heading"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/more_recommendations_button"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="@string/home_more"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="12sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:cardBackgroundColor="@color/gray"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:contentDescription="@string/home_image_of_french_toast_with_strawberries"
+                    android:src="@drawable/french_toast_with_strawberries" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home_breakfast"
+                        android:textColor="@color/teal_700" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home_fresh_item_1_title"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <RatingBar
+                            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_gravity="start"
+                            android:progressTint="@color/orange"
+                            android:rating="5"
+                            android:stepSize="0.5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/home_the_number_of_calories_of_french_toast_with_strawberries"
+                            android:textSize="11sp"
+                            android:textColor="@color/orange"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/home_picture_of_the_clock"
+                            android:src="@drawable/home_clock"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="@string/home_cooking_time_for_french_toast_with_strawberries"
+                            android:textSize="11sp"
+                            android:gravity="center"
+                            android:layout_marginEnd="15dp"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/home_picture_of_the_portion"
+                            android:src="@drawable/home_a_portion"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="@string/home_number_of_servings_in_french_toast_with_strawberries"
+                            android:textSize="11sp"
+                            android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:gravity="end"
+                    android:layout_gravity="end"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/search_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+
+            app:iconSize="15dp"
+            app:iconPadding="0dp"
+            android:gravity="center"
+            app:iconTint="@color/orange"
+            app:iconGravity="top"
+            app:icon="@drawable/home_search_icon"
+            android:text="@string/home_component_search"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/my_recipes_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:iconSize="15dp"
+            app:iconPadding="0dp"
+            android:gravity="center"
+            app:iconTint="@color/dark_grey"
+            app:iconGravity="top"
+            app:icon="@drawable/my_recipes"
+            android:text="@string/home_my_recipes"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_grey"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="11sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/profile_button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:iconSize="15dp"
+            app:iconPadding="0dp"
+            android:gravity="center"
+            app:iconTint="@color/dark_grey"
+            app:iconGravity="top"
+            app:icon="@drawable/profile"
+            android:text="@string/home_profile"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_grey"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textSize="11sp" />
+    </FrameLayout>
+</FrameLayout>
