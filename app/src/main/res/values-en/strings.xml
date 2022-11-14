@@ -20,4 +20,24 @@
     <string name="recipe_view_directions_4_text">Sprinkle with cinnamon and sugar before serving.powder, put chopped strawberries on top.</string>
     <string name="recipe_view_wish">Bon appetit</string>
     <string name="recipe_view_button_text">Return</string>
+    <string name="ingredients_sugar">Sugar</string>
+    <string name="ingredients_water">Water</string>
+    <string name="ingredients_strawberry">Strawberry</string>
+    <string name="ingredients_egg">Egg</string>
+    <string name="ingredients_grape">Grape</string>
+    <string name="ingredients_cheese">Cheese</string>
+    <string name="Recipe_title_Omelet_classic">Omelet classic</string>
+    <string name="Recipe_Omelet_classic_step_1">Release the eggs into a bowl.</string>
+    <string name="Recipe_Omelet_classic_step_2">Pour milk into the eggs.</string>
+    <string name="Recipe_Omelet_classic_step_3">Add flour and salt. If desired, you can add a pinch of sugar.</string>
+    <string name="Recipe_Omelet_classic_step_4">Beat the mixture thoroughly with a whisk or just a fork until smooth.</string>
+    <string name="Recipe_Omelet_classic_step_5">Pour the egg mixture into a frying pan heated with vegetable oil.</string>
+    <string name="Recipe_Omelet_classic_step_6">Cover the pan with a lid.</string>
+    <string name="Recipe_Omelet_classic_step_7">Bake the omelet in a frying pan for 10-15 minutes on low heat until cooked.</string>
+    <string name="Recipe_Omelet_classic_step_8">The omelet should rise and bake. If desired, the omelet can be turned over and fried on the other side.</string>
+    <string name="Categories_meals_second_dish">Second dish</string>
+    <string name="Categories_meals_first_dish">First dish</string>
+    <string name="Categories_meals_drink">Drink</string>
+    <string name="Categories_meals_dessert">Dessert</string>
+    <string name="Categories_meals_sauce">Sauce</string>
 </resources>
