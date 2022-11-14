@@ -4,7 +4,7 @@
     <string name="home_question">Что будете готовить сегодня?</string>
     <string name="home_search_box_text">Начните поиск</string>
     <string name="home_fresh_heading">Популярные рецепты</string>
-    <string name="home_more">Ещё...</string>
+    <string name="home_more">Ещё…</string>
     <string name="home_fresh_item_1_title">Французские тосты с клубникой</string>
     <string name="home_recommended_heading">Рекомендуем</string>
     <string name="home_recommended_item_1_title">Черничные маффины</string>
@@ -39,4 +39,14 @@
     <string name="login_don_t_have_an_account" translatable="false">Don\'t have an account?</string>
     <string name="login_register" translatable="false">Register.</string>
     <string name="home_breakfast">Завтрак</string>
+    <string name="home_menu_button_icon">Иконка кнопки меню</string>
+    <string name="home_picture_of_the_clock">Картинка часов</string>
+    <string name="home_picture_of_the_portion">Картинка порции</string>
+    <string name="home_reminder_button_icon">Иконка кнопки напоминания</string>
+    <string name="home_image_of_french_toast_with_strawberries">Изображение французского тоста с клубникой</string>
+    <string name="home_the_number_of_calories_of_french_toast_with_strawberries">120 калорий</string>
+    <string name="home_cooking_time_for_french_toast_with_strawberries">10 минут</string>
+    <string name="home_number_of_servings_in_french_toast_with_strawberries">1 порция</string>
+    <string name="registration_email_error">Email введен некорректно!</string>
+    <string name="registration_minimum_number_of_characters">"Введите не менее %1$d символов!"</string>
 </resources>

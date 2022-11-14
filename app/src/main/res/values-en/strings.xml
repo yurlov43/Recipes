@@ -5,7 +5,7 @@
     <string name="home_question">What will you cook today?</string>
     <string name="home_search_box_text">Start searching</string>
     <string name="home_fresh_heading">Popular recipes</string>
-    <string name="home_more">More...</string>
+    <string name="home_more">More…</string>
     <string name="home_fresh_item_1_title">French toast with strawberries</string>
     <string name="home_recommended_heading">We recommend </string>
     <string name="home_recommended_item_1_title">Blueberry muffins</string>
@@ -28,9 +28,19 @@
     <string name="home_search_icon_content_description">Search field icon</string>
     <string name="registration_name_label">Name</string>
     <string name="home_search_label">Start searching</string>
+    <string name="home_picture_of_the_clock">Clock picture</string>
+    <string name="home_picture_of_the_portion">Portion image</string>
     <string name="registration_password_label">Password</string>
     <string name="registration_email_icon_content_description">Email input field icon</string>
     <string name="registration_password_icon_content_description">Password input field icon</string>
     <string name="login_forgot_of_password">Forgot of password?</string>
     <string name="home_breakfast">Breakfast</string>
+    <string name="home_menu_button_icon">Menu button icon</string>
+    <string name="home_reminder_button_icon">Reminder button icon</string>
+    <string name="home_image_of_french_toast_with_strawberries">Image of French toast with strawberries</string>
+    <string name="home_the_number_of_calories_of_french_toast_with_strawberries">120 calories</string>
+    <string name="home_cooking_time_for_french_toast_with_strawberries">10 minutes</string>
+    <string name="home_number_of_servings_in_french_toast_with_strawberries">1 serving</string>
+    <string name="registration_email_error">Email entered incorrectly!</string>
+    <string name="registration_minimum_number_of_characters">"Enter at least %1$d characters!"</string>
 </resources>

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".RegistrationActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/login_and_registration_background"
-        android:contentDescription="@string/welcome_background"
-        android:scaleType="centerCrop"
-        android:foreground="@color/dark_image"/>
+        tools:context=".RegistrationActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/login_and_registration_background"
+            android:contentDescription="@string/welcome_background"
+            android:scaleType="centerCrop"
+            android:foreground="@color/dark_image"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +44,7 @@
             android:textStyle="bold"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/nameTextInputLayout"
+            android:id="@+id/name_text_input_layout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -57,7 +59,7 @@
             app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nameEditText"
+                android:id="@+id/name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
@@ -65,7 +67,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/emailTextInputLayout"
+            android:id="@+id/email_text_input_layout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -78,7 +80,7 @@
             android:textColorHint="@color/dark_grey">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/emailEditText"
+                android:id="@+id/email_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
@@ -87,7 +89,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/passwordTextInputLayout"
+            android:id="@+id/password_text_input_layout"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="30dp"
@@ -102,7 +104,7 @@
             app:endIconTint="@color/dark_grey">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/passwordEditText"
+                android:id="@+id/password_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dark_grey"
@@ -141,7 +143,7 @@
                 android:layout_marginEnd="5dp"/>
 
             <Button
-                android:id="@+id/loginButton2"
+                android:id="@+id/login_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/orange"
@@ -153,3 +155,4 @@
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>
+</layout>

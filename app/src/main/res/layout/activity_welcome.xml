@@ -45,7 +45,7 @@
         android:layout_gravity="bottom">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/registrationButton"
+            android:id="@+id/registration_button"
             android:layout_width="315dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -58,7 +58,7 @@
             app:cornerRadius="50dp"/>
 
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/login_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
