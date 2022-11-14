@@ -49,4 +49,24 @@
     <string name="home_number_of_servings_in_french_toast_with_strawberries">1 порция</string>
     <string name="registration_email_error">Email введен некорректно!</string>
     <string name="registration_minimum_number_of_characters">"Введите не менее %1$d символов!"</string>
+    <string name="ingredients_sugar">Сахар</string>
+    <string name="ingredients_water">Вода</string>
+    <string name="ingredients_strawberry">Клубника</string>
+    <string name="ingredients_egg">Яицо</string>
+    <string name="ingredients_grape">Виноград</string>
+    <string name="ingredients_cheese">Сыр</string>
+    <string name="Recipe_title_Omelet_classic">Омлет классический</string>
+    <string name="Recipe_Omelet_classic_step_1">Яйца выпустить в миску.</string>
+    <string name="Recipe_Omelet_classic_step_2">Влить в яйца молоко.</string>
+    <string name="Recipe_Omelet_classic_step_3">Добавить муку и соль. По желанию можно добавить щепотку сахара.</string>
+    <string name="Recipe_Omelet_classic_step_4">Тщательно взбить смесь венчиком или просто вилкой до однородности.</string>
+    <string name="Recipe_Omelet_classic_step_5">Влить яичную смесь на разогретую с растительным маслом сковороду.</string>
+    <string name="Recipe_Omelet_classic_step_6">Накрыть сковороду крышкой.</string>
+    <string name="Recipe_Omelet_classic_step_7">Выпекать омлет на сковороде минут 10-15 на небольшом огне до готовности.</string>
+    <string name="Recipe_Omelet_classic_step_8">Омлет должен подняться и пропечься. По желанию омлет можно перевернуть и обжарить с другой стороны.</string>
+    <string name="Categories_meals_second_dish">Второе блюдо</string>
+    <string name="Categories_meals_first_dish">Первое блюдо</string>
+    <string name="Categories_meals_drink">Напиток</string>
+    <string name="Categories_meals_dessert">Десерт</string>
+    <string name="Categories_meals_sauce">Соус</string>
 </resources>
